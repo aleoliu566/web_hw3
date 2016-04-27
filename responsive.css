@@ -1,0 +1,236 @@
+@media screen and (min-width:991px){
+	/********全部設定******/
+	#wrapper{
+		width: 991px;
+		display: flex;
+		margin-top: 50px;
+	}
+	#nav-info{
+		flex: 1;
+	}
+	#main{
+		flex: 4;
+	}
+	/********藍色區域******/
+	#nav-info aside{
+		display: block;
+	}
+	#nav-info li{
+	font-size: 2rem;
+	}
+	#nav-info img{
+		margin-bottom: 10px;
+	}
+	#nav-info h5, #nav-info p{
+		color: rgb(87,87,87);
+	}
+	#nav-info h5{
+		font-size: 1rem;
+		text-transform:uppercase;
+	}
+	#nav-info p{
+		font-size: 0.8rem;
+		margin-right: 100px;
+	}
+	.icon{
+		width: 100px;
+	}
+	/********黃色區域******/
+	/********紅色區域******/
+	.arti-with-pic{
+	padding-left: 10px;
+	padding-right:10px;
+	width: 25%;
+	}
+}
+@media screen and (min-width:769px) and (max-width:991px){
+	/********全部設定******/
+	#wrapper{
+		max-width: 768px;
+		margin-top: 30px;
+	}
+	/********藍色區域******/
+	#nav-info{
+		display: flex;
+	}
+	#nav-info .icon{
+		flex: 1;
+	}
+	#nav-info li{
+		display: inline-block;
+		flex: 3;
+		font-size: 1.7rem;
+		margin-left: 20px;
+	}
+	#nav-info aside{
+		display: none;
+	}
+
+	/********黃色區域******/
+	.pic{
+		width: 100%;
+		height: 445px;
+	}
+	#nd-nav p{
+		display: none;
+	}
+	/********紅色區域******/
+	#archives{
+		display: flex;
+	}
+	.arti-with-pic{
+		flex: 1;
+		padding-left: 5px;
+		padding-right:5px;
+		width: 25%;
+	}
+}
+@media screen and (min-width: 769px){
+	.pic{
+		position: relative;
+		z-index: 1;
+	}
+	.pic .title-box{
+		position: absolute;
+		font-size: 2rem;
+		right: 0px;
+		top:200px;
+		z-index: 2;
+	}
+	.pic #titleA{
+		margin-left: 66%;
+		text-align: right;
+		background-color: white;
+		padding: 13px;
+	}
+	.pic #titleB{
+		background-color: black;
+		color: white;
+		padding: 13px;
+	}
+}
+@media screen and (min-width:480px) and (max-width:768px){
+	/********全部設定******/
+	#wrapper{
+		max-width: 480px;
+		margin-top: 20px;
+	}
+	/********藍色區域******/
+	#nav-info{
+		display: flex;
+	}
+	#nav-info .icon{
+		flex: 1;
+	}
+	#nav-info li{
+		display: inline-block;
+		flex: 3;
+		font-size: 1.6rem;
+		margin-left: 20px;
+	}
+	/********黃色區域******/
+	.pic img{
+		height: 248px;
+	}
+	.pic{
+		font-size: 1rem;
+		line-height: 1rem;
+	}
+	/********紅色區域******/
+	#archives{
+		display: flex;
+		flex-wrap:wrap;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.arti-with-pic{
+		width: 47.5%; 
+		margin-top: 20px;
+		margin-right: 5px;
+		margin-left: 5px;
+		padding:0px;
+	}
+}
+@media screen and (max-width: 768px){
+	/********黃色區域*******/
+	.title-box div{
+		padding:10px;
+	}
+	.title-box #titleB{
+		background-color: black;
+		color: white;
+	}
+	#nd-nav{
+		display: none;
+	}
+	#nav-info .icon img{
+		width: 60px;
+	}
+
+	.pic{
+		position: relative;
+		z-index: 1;
+	}
+	.pic .title-box{
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		font-size: 1rem;
+		line-height: 1rem;
+		z-index: 2;
+	}
+	.pic #titleA{
+		background-color: white;
+		padding: 10px;
+	}
+	.pic #titleB{
+		background-color: black;
+		color: white;
+		padding: 10px;
+	}
+}
+@media screen and (max-width:479px){
+	/********全部設定******/
+	#wrapper{
+		max-width: 350px;
+		margin-top: 10px;
+	}
+	/********藍色區域******/
+	#nav-info{
+		display: flex;
+		flex-wrap:wrap;
+	}
+	#nav-info .icon{
+		order: 2;
+		margin: auto;
+	}
+	#nav-info nav{
+		order: 1;
+		margin: auto;
+	}
+	#nav-info ul{
+		margin: 0px;
+	}
+	#nav-info li{
+		display: inline-block;
+		font-size: 1.4rem;
+		text-align: center;
+		padding: 5px;
+	}
+	/********黃色區域******/
+	.pic img{
+		height: 248px;
+	}
+	/********紅色區域******/
+	#archives{
+		display: flex;
+		flex-wrap:wrap;
+		margin-bottom: 10px;
+	}
+	.arti-with-pic{
+		width: 100%;
+		margin-top:10px;
+		margin-bottom: 10px; 
+	}
+
+}
