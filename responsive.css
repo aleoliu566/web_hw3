@@ -95,7 +95,7 @@
 		position: absolute;
 		font-size: 2rem;
 		right: 0px;
-		top:200px;
+		bottom: 130px;
 		z-index: 2;
 	}
 	.pic #titleA{
