@@ -16,7 +16,8 @@
 		display: block;
 	}
 	#nav-info li{
-	font-size: 2rem;
+		font-size: 2rem;
+		margin-bottom: 18px;
 	}
 	#nav-info img{
 		margin-bottom: 10px;
@@ -131,9 +132,12 @@
 	}
 	#nav-info li{
 		display: inline-block;
-		flex: 3;
-		font-size: 1.6rem;
+		flex: 4;
+		font-size: 1.7rem;
 		margin-left: 20px;
+	}
+	#nav-info li:nth-child(1){
+		margin: 0;
 	}
 	/********黃色區域******/
 	.pic img{

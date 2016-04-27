@@ -20,6 +20,9 @@ body{
 #nav-info aside{
 	display: none;
 }
+.icon{
+	margin-bottom: 10px;
+}
 
 /***********黃色區域****************/
 .pic img{
@@ -28,6 +31,7 @@ body{
 }
 #nd-nav{
 	margin: 0;
+	width: 100%;
 	display: flex;
 	text-align: center;
 	margin-bottom: 10px;
@@ -38,7 +42,7 @@ body{
 	border-right: rgb(217,239,236) solid 0.5px;
 }
 #nd-nav .option:nth-child(4){
-	border: 0;
+	border-right: none;
 }
 #nd-nav h3{
 	font-size: 2rem;
@@ -47,6 +51,7 @@ body{
 }
 #nd-nav p{
 	font-size: 1rem;
+	margin: 0;
 }
 /***********紅色區域****************/
 .img1{
